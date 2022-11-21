@@ -1,0 +1,24 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      // В ЯКОМУ ФОРМАТІ ВИВОДИТИ ФАЙЛИ
+    //  ЗВИЧАЙНИЙ ФОРМАТ
+      "format": "compressed",
+      // МІНІФІКОВАНИЙ ФОРМАТ
+      "extensionName": ".min.css",
+      // ЩЛЯХ КУДИ ЦЕ КЛАСТИ
+      "savePath": "/css"
+    }
+  ],
+  // ВИКЛЮЧЕННЯ ПЕВНИХ КАТЕГОРІЙ ФАЙЛІВ ЧИ ПАПОК 
+  "liveSassCompile.settings.excludeList": ["/**/node_modules/**", "/.vscode/**"],
+  // ВІДСЛІДКОВУВАННЯ ВЛАСТИВОСТЕЙ В ФАЙЛАХ-ГЕНЕРАЦІЯ МАПИ СТИЛЕЙ
+  "liveSassCompile.settings.generateMap": true,
+  // АВТОПРЕФІКС
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
+}
